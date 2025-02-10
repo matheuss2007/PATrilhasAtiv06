@@ -1,0 +1,26 @@
+using System;
+
+namespace PATrilhasAtiv06
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			Console.WriteLine ("escreva uma palavra:");
+			string palavra = (Console.ReadLine());
+			
+			foreach  (char letra in palavra){
+			
+				Console.WriteLine(letra);
+				
+					
+			}
+			
+			
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
